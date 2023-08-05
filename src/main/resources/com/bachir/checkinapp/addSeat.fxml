@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bachir.checkinapp.AddSeatController">
+    <children>
+        <Label text="Add a Seat" style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+        <HBox alignment="CENTER" spacing="10">
+            <Label text="Flight number:" />
+            <TextField fx:id="flightNumberField" promptText="Enter flight number" />
+        </HBox>
+        <HBox alignment="CENTER" spacing="10">
+            <Label text="Class:" />
+            <TextField fx:id="classField" promptText="Enter class (E or B)" />
+        </HBox>
+        <HBox alignment="CENTER" spacing="10">
+            <Label text="Options:" />
+            <TextField fx:id="optionsField" promptText="Enter options" />
+        </HBox>
+        <HBox alignment="CENTER" spacing="10">
+            <Label text="Price:" />
+            <TextField fx:id="Price" promptText="Enter price in $" />
+        </HBox>
+        <HBox alignment="CENTER" spacing="10">
+            <TextField fx:id="seatIdModify" promptText="Enter seat Id to modify" />
+            <Button fx:id="Modify" text="Modify" onAction="#modifySeat" style="-fx-background-color: #4CAF50; -fx-text-fill: white;"/>
+        </HBox>
+        <HBox alignment="CENTER" spacing="10">
+            <TextField fx:id="seatIdDelete" promptText="Enter seat Id to delete" />
+            <TextField fx:id="flightIdDelete" promptText="Enter flight number" />
+            <Button fx:id="Delete" text="Delete" onAction="#Delete" style="-fx-background-color: #FF0000; -fx-text-fill: white;"/>
+        </HBox>
+        <Button fx:id="AddSeat" text="Add" onAction="#addSeat" style="-fx-background-color: #2196F3; -fx-text-fill: white;" />
+        
+        <Label fx:id="message" style="-fx-font-size: 14px; -fx-text-fill: #FF0000;" />
+        
+        <Button fx:id="homePage" text="Return to home page" onAction="#homePage" style="-fx-background-color: #2196F3; -fx-text-fill: white;" />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

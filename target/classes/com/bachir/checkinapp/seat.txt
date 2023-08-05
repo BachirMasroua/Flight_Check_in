@@ -1,0 +1,5 @@
+11 1 B 333 available asdf
+11 2 E 2345 available sadf
+11	3	B	1243	reserved	qwer
+11 4 B 343 reserved zxcv
+11 5 E 777 available zcxv

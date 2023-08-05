@@ -1,0 +1,18 @@
+User Information:
+Client ID: 2
+Name: client1 test
+Email: client1@gmail.com
+Phone: 098765
+
+Reservation Details:
+Flight Number: 11
+Seat Number: 4
+Price: $343
+Options: zxcv
+
+Flight Number: 11
+Seat Number: 3
+Price: $1243
+Options: qwer
+
+Total Price: $1586.0

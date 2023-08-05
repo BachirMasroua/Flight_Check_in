@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bachir.checkinapp.Sign_upController">
+    <children>
+        <Label text="Sign Up" style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+      
+        <HBox alignment="CENTER" spacing="5">
+            <Label text="Email:" style="-fx-font-size: 14px;"  />
+            <TextField fx:id="emailField" style="-fx-font-size: 14px;" onKeyReleased="#validateEmail" />
+        </HBox>
+        <HBox alignment="CENTER" spacing="5">
+            <Label text="First Name:" style="-fx-font-size: 14px;" />
+            <TextField fx:id="firstNameField" style="-fx-font-size: 14px;" />
+        </HBox>
+        <HBox alignment="CENTER" spacing="5">
+            <Label text="Last Name:" style="-fx-font-size: 14px;" />
+            <TextField fx:id="lastNameField" style="-fx-font-size: 14px;" />
+        </HBox>
+        <HBox alignment="CENTER" spacing="5">
+            <Label text="Password:" style="-fx-font-size: 14px;" />
+            <PasswordField fx:id="passwordField" style="-fx-font-size: 14px;" />
+        </HBox>
+        <HBox alignment="CENTER" spacing="5">
+            <Label text="Telephone Number:" style="-fx-font-size: 14px;" />
+            <TextField fx:id="telephoneNumberField" style="-fx-font-size: 14px;" />
+        </HBox>
+      
+        <Button fx:id="Sign_upButton" text="Sign up" onAction="#Register" style="-fx-background-color: #2196F3; -fx-text-fill: white;" />
+        <Button fx:id="Login" text="Go back to login" onAction="#LoginPage" style="-fx-background-color: #2196F3; -fx-text-fill: white;" />
+        <Label fx:id="Sign_up" style="-fx-font-size: 14px; -fx-text-fill: #FF5722;" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

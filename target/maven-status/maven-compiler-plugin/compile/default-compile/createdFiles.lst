@@ -1,0 +1,10 @@
+com\bachir\checkinapp\App.class
+com\bachir\checkinapp\Client.class
+com\bachir\checkinapp\AddSeatController.class
+com\bachir\checkinapp\SecondaryController.class
+com\bachir\checkinapp\Seat.class
+com\bachir\checkinapp\PrimaryController.class
+module-info.class
+com\bachir\checkinapp\AddReservationController.class
+com\bachir\checkinapp\Sign_upController.class
+com\bachir\checkinapp\CancelReservationController.class
