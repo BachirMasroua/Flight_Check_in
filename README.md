@@ -63,3 +63,5 @@ FL123 R124 2 2B
 ## Conclusion
 
 The Flight Check In application's database is organized into three files: `client.txt`, `seat.txt`, and `reservation.txt`. These files collectively store client information, seat availability, and reservation records. The relationships between clients, seats, and reservations provide a foundation for managing flight check-in operations.
+
+## Note: admin password is 12345
