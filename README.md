@@ -19,6 +19,7 @@ The `client.txt` file stores information about clients who use the Flight Check 
 
 Example `client.txt` entry:
 1 John Doe 5f4dcc3b5aa765d61d8327deb882cf99 john.doe@example.com 123-456-7890
+<br>
 2 Jane Smith d5bfa27282c0b04b8c73337c17524a1d jane.smith@example.com 987-654-3210
 
 ### seat.txt
@@ -34,6 +35,7 @@ The `seat.txt` file contains information about available seats on different flig
 
 Example `seat.txt` entry:
 FL123 1A Economy 200 Available Window seat
+<br>
 FL123 2B Business 400 Reserved Extra legroom
 
 ### reservation.txt
@@ -47,6 +49,7 @@ The `reservation.txt` file maintains records of reservations made by clients. Ea
 
 Example `reservation.txt` entry:
 FL123 R123 1 1A
+<br>
 FL123 R124 2 2B
 
 ## Relationships
